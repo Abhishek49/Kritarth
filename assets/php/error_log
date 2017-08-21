@@ -1,0 +1,24 @@
+[14-Sep-2016 11:29:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/kritarth2k16/public_html/assets/php/connect.php:2
+Stack trace:
+#0 /home/kritarth2k16/public_html/assets/php/connect.php(2): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/kritarth2k16/public_html/assets/php/events.php(22): require('/home/kritarth2...')
+#2 {main}
+  thrown in /home/kritarth2k16/public_html/assets/php/connect.php on line 2
+[14-Sep-2016 11:29:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/kritarth2k16/public_html/assets/php/connect.php:2
+Stack trace:
+#0 /home/kritarth2k16/public_html/assets/php/connect.php(2): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/kritarth2k16/public_html/assets/php/events.php(22): require('/home/kritarth2...')
+#2 {main}
+  thrown in /home/kritarth2k16/public_html/assets/php/connect.php on line 2
+[14-Sep-2016 11:39:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/kritarth2k16/public_html/assets/php/connect.php:2
+Stack trace:
+#0 /home/kritarth2k16/public_html/assets/php/connect.php(2): PDO->__construct('mysql:host=http...', 'root', '', Array)
+#1 /home/kritarth2k16/public_html/assets/php/events.php(22): require('/home/kritarth2...')
+#2 {main}
+  thrown in /home/kritarth2k16/public_html/assets/php/connect.php on line 2
+[14-Sep-2016 11:45:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/kritarth2k16/public_html/assets/php/connect.php:2
+Stack trace:
+#0 /home/kritarth2k16/public_html/assets/php/connect.php(2): PDO->__construct('mysql:host=http...', 'root', '', Array)
+#1 /home/kritarth2k16/public_html/assets/php/events.php(22): require('/home/kritarth2...')
+#2 {main}
+  thrown in /home/kritarth2k16/public_html/assets/php/connect.php on line 2

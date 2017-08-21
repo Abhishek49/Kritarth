@@ -1,0 +1,3 @@
+<?php
+	$db_conn = new PDO ( 'mysql:host=localhost;dbname=kritarth;charset=utf8' , 'kritarth2k16' , 'Kritarth@2k16' , array ( PDO::ATTR_PERSISTENT => false , PDO :: ATTR_EMULATE_PREPARES => false , PDO :: ATTR_ERRMODE => PDO :: ERRMODE_EXCEPTION , PDO :: ATTR_ORACLE_NULLS => PDO :: NULL_EMPTY_STRING , PDO :: ATTR_TIMEOUT => 10 , PDO :: ATTR_AUTOCOMMIT => true ) ) or die ( "Error communicating with database" ) ;
+?>
